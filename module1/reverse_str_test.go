@@ -14,7 +14,6 @@ func TestReverse(t *testing.T) {
 		{"malla", "allam"},
 		{"dog", "god"},
 		{"dev", "ved"},
-
 		{"alphabet", "tebahpla"},
 		{"日本語", "語本日"},
 	}

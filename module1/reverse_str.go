@@ -5,7 +5,7 @@ package module1
 func ReverseString(s string) (ans string) {
 	last := len(s) - 1
 	for i := range s {
-		// fmt.Printf("%v", i)
+
 		ans += string(s[last-i])
 	}
 
