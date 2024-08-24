@@ -22,7 +22,7 @@ func TestReverse(t *testing.T) {
 		t.Run(fmt.Sprintf("%v", tc.word), func(t *testing.T) {
 			ans := Reverse(tc.word)
 			if ans != tc.want {
-				t.Fatalf("NumInList() = %v; want %v", ans, tc.want)
+				t.Fatalf("Reverse() = %v; want %v", ans, tc.want)
 			}
 		})
 

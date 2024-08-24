@@ -30,7 +30,7 @@ func TestSumList(t *testing.T) {
 		t.Run(fmt.Sprintf("%v", tc.list), func(t *testing.T) {
 			ans := SumListWithRecursive(tc.list)
 			if ans != tc.want {
-				t.Fatalf("NumInList() = %v; want %v", ans, tc.want)
+				t.Fatalf("SumList() = %v; want %v", ans, tc.want)
 			}
 		})
 
